@@ -12,6 +12,7 @@ body{
 .container {
     text-align: center;
     font-size: larger;
+    background-color: whitesmoke;
 }
 
 .iDK{
@@ -25,4 +26,5 @@ body{
 .iDK:hover {
     font-size: larger;
     color: blue;
+
 }
