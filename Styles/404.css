@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+    color: #000000;
+    font-family: monospace;
+    text-align: center;
+}
+.containerx2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    font-size: larger;
+}
+
+.iDK{
+    text-decoration: none;
+    color: #000000;
+}
+.iDK:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.iDK:hover {
+    font-size: larger;
+    color: blue;
+}

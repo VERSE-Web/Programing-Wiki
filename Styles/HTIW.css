@@ -1,0 +1,63 @@
+/* Internet.css - card style for How the Internet Works page */
+
+body {
+    font-family: monospace;
+    background-color: #f0ffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.textdecoration {
+    text-decoration: none;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.internet-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 20px;
+}
+
+.internet-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 250px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.internet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.internet-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.internet-card h2 {
+    font-size: 1.3rem;
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+.internet-card p {
+    font-size: 0.95rem;
+    color: #555;
+}

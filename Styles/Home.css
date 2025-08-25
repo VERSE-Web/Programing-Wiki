@@ -1,0 +1,272 @@
+/* Home.css */
+.textdecoration {
+    text-decoration: none;
+    color:#555
+}
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0ffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header (currently empty) */
+header {
+    height: 60px;
+    background-color: #222;
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+h1 b {
+    color: #007acc; /* Blue highlight for "Wikipedia for programmers!" */
+}
+
+/* Recommended section */
+.recommended {
+    background-color: whitesmoke;
+    border: 45px solid whitesmoke;
+    border-radius: 70px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.recommended a {
+    text-decoration: none;
+    color: black;
+}
+
+.Recommendedcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Recommendedcontainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.recommendedContent1 img, .recommendedContent2-1 img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.recommendedContent2, .recommendedContent2-2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007acc;
+}
+
+.recommendedContent3 .recommendedContent2-3 {
+    font-size: 1rem;
+    color: #555;
+}
+/* Programming Section */
+.programming {
+    background-color: whitesmoke;
+    border: 45px solid whitesmoke;
+    border-radius: 70px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programming a {
+    text-decoration: none;
+    color: black;
+}
+
+.ProgrammingContainer1, .ProgrammingContainer2, .ProgrammingContainer3,
+.ProgrammingContainer4, .ProgrammingContainer5, .ProgrammingContainer6,
+.ProgrammingContainer7, .ProgrammingContainer8, .ProgrammingContainer9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ProgrammingContainer1:hover, .ProgrammingContainer2:hover, .ProgrammingContainer3:hover,
+.ProgrammingContainer4:hover, .ProgrammingContainer5:hover, .ProgrammingContainer6:hover,
+.ProgrammingContainer7:hover, .ProgrammingContainer8:hover, .ProgrammingContainer9:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.ProgrammingContent1 img,
+.ProgrammingContent1-2 img,
+.ProgrammingContent1-3 img,
+.ProgrammingContent1-4 img,
+.ProgrammingContent1-5 img,
+.ProgrammingContent1-6 img,
+.ProgrammingContent1-7 img,
+.ProgrammingContent1-8 img,
+.ProgrammingContent1-9 img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Titles */
+.ProgrammingContent2, .ProgrammingContent2-2, .ProgrammingContent2-3,
+.ProgrammingContent2-4, .ProgrammingContent2-5, .ProgrammingContent2-6,
+.ProgrammingContent2-7, .ProgrammingContent2-8, .ProgrammingContent2-9 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Descriptions */
+.ProgrammingContent3, .ProgrammingContent3-2, .ProgrammingContent3-3,
+.ProgrammingContent3-4, .ProgrammingContent3-5, .ProgrammingContent3-6,
+.ProgrammingContent3-7, .ProgrammingContent3-8, .ProgrammingContent3-9 {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Custom colors per language */
+.ProgrammingContent2 { color: #306998; }       /* Python */
+.ProgrammingContent2-2 { color: #F06529; }     /* HTML */
+.ProgrammingContent2-3 { color: #4B8BBE; }     /* CSS */
+.ProgrammingContent2-4 { color: #F7DF1E; }     /* JavaScript */
+.ProgrammingContent2-5 { color: #f89820; }     /* Java */
+.ProgrammingContent2-6 { color: #37748b; }     /* C++ */
+.ProgrammingContent2-7 { color: #742974; }     /* C# */
+.ProgrammingContent2-8 { color: #be2427; }     /* Ruby */
+.ProgrammingContent2-9 { color: #00ADD8; }     /* Go */
+
+
+/* Internet Section */
+.internet {
+    background-color: whitesmoke;
+    border: 45px solid whitesmoke;
+    border-radius: 70px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.internet a {
+    text-decoration: none;
+    color: black;
+}
+
+.InternetContainer1, .InternetContainer2, .InternetContainer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.InternetContainer1:hover, .InternetContainer2:hover, .InternetContainer3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.InternetContent1 img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.InternetContent2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00b894; /* Green-blue for Internet section */
+}
+
+.InternetContent3 {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Lesson 2 */
+.InternetContent1-2 img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.InternetContent2-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6c5ce7; /* Purple for Web Protocols */
+}
+
+.InternetContent3-2 {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Lesson 3 */
+.InternetContent1-3 img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.InternetContent2-3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fd79a8; /* Pink for Networking */
+}
+
+.InternetContent3-3 {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+.footer-container {
+    color: #7e7575;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

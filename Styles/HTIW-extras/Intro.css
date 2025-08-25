@@ -1,0 +1,63 @@
+body {
+  background: azure;
+  margin: 0;
+  padding: 2rem;
+}
+
+
+.card-content {
+  background: whitesmoke;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  font-family: sans-serif;
+  color: #2a2f35;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+.card-content h1 {
+  color: #007acc;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.card-content .lead {
+  font-size: 1.05rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.card-content h2 {
+  color: #007acc;
+  font-size: 1.3rem;
+  margin: 1.2rem 0 0.5rem;
+}
+
+.card-content p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.card-content ul {
+  margin: 0.5rem 0 1rem 1.2rem;
+  padding: 0;
+}
+
+.card-content ul li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.card-content strong {
+  color: #000;
+}
+
+.card-content abbr {
+  text-decoration: none;
+  border-bottom: 1px dotted #007acc;
+  cursor: help;
+}
