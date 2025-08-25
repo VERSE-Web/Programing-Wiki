@@ -1,4 +1,4 @@
-
+# ⚠️If anything does not work please don't mind i can not fix it as i am just a student of Grade 7 and don't have enough time. But i will slowly update⚠️
 
 # 🧑‍💻 Programing-Wikipedia
 
